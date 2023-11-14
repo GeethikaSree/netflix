@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Netflix Home</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+*{
+    padding:0;
+    margin:0;
+   /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    font-family: cursive;
+    font-style: italic;
+    box-sizing: border-box;
+}
+    /* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2%;
+    height: 75%;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the featured content */
+.featured {
+    background-image: url('w2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15% 15%;
+    
+}
+.featured h1 {
+    font-size: 3rem;
+    color: aliceblue;
+}
+
+.featured p {
+    font-size: 1.2rem;
+    max-width: 400px;
+    margin-top: 1rem;
+    color: aliceblue;
+}
+
+.featured button {
+    background-color: #e50914;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.featured img{
+    width: 1200px;
+    border-radius: 2px;
+}
+
+/* Style the movie thumbnails */
+.thumbnails {
+    padding: 2% 4%;
+}
+
+.thumbnails h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.movie {
+    margin-right: 1rem;
+}
+
+.movie img {
+    width: 150px;
+    border-radius: 5px;
+}
+
+/* Add more styles as needed */
+
+</style>
+<body>
+    <header>
+        <div class="logo">
+            <img src="n.png" alt="Netflix Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="featured">
+        <div class="content">
+            <h1>MUDHAL NEE MUDIVUM NEE</h1>
+            <p> a simple yet refreshing tale of a bunch of high school students, who go through the typical rigours of teen life..</p>
+            <button>Play</button>
+            <button>More Info</button>
+        </div>
+        
+    </section>
+
+    
+</body>
+</html>
